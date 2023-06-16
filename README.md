@@ -10,7 +10,7 @@ docker build . -t ssh-autho
 
 4-) containerimizi başlatalım.
 
-docker run -dit -p 2223 -name sshkeys ssh-autho 
+docker run -dit -p 2223 --name sshkeys ssh-autho 
 
 5-) container içine ssh key ile direkt bağlantı yapma.
 
